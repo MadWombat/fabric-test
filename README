@@ -2,7 +2,7 @@ Test fabric deploy script
 
 WHAT IT DOES:
 
-Starts a micro instance running Ubuntu, installs current updates, Apache, WSGI module and virutalenv. Creates virtualenv and install sboto and Django inside it. Creates a separate user account to own Django and creates a new django project. Configures boto credetials and Apache Vhost.
+Starts a micro instance running Ubuntu, installs current updates, Apache, WSGI module and virutalenv. Creates virtualenv and installs boto and Django inside it. Creates a separate user account to own Django and creates a new django project. Configures boto credetials and Apache Vhost.
 
 WHAT IT DOESN'T DO
 
