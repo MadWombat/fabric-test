@@ -1,0 +1,5 @@
+<VirtualHost _default_:80>
+    WSGIDaemonProcess django user=www-data group=www-data processes=10 threads=1 python-path=/var/django/lib/python2.7/site-packages
+    WSGIProcessGroup django
+    WSGIScriptAlias / /var/django/website/wsgi.py
+</VirtualHost>
