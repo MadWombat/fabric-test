@@ -110,4 +110,4 @@ def setup_server():
     create_virtualenv()
     configure_django()
     configure_boto()
-    #terminate_instance(instance.id)
+    #terminate_instance(instance)
